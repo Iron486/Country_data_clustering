@@ -33,7 +33,7 @@ Firstly, I imported the libraries and read the dataset.
 Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features.
 I plotted the countries in the World and in Europe with their respective value for each feature. The interactive plots can be found at the following links:
 
-element {
+@settings {
 
 https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_child_mort.html
 
