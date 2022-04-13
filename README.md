@@ -30,7 +30,9 @@ Data from 167 countries were given in `csv` format  [Country_data_clustering
 In the notebook called [Country_data_clustering_kmeans.ipynb](https://github.com/Iron486/Country_data_clustering/blob/main/Country_data_clustering_kmeans.ipynb) I applied k-means algorithm, while in this one [Country_data_clustering_DBSCAN_Birch.ipynb](https://github.com/Iron486/Country_data_clustering/blob/main/Country_data_clustering_DBSCAN_Birch.ipynb), I applied DBSCAN and Birch to the dataset.
 
 Firstly, I imported the libraries and read the dataset.
-Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features -->![correlation](https://user-images.githubusercontent.com/62444785/163285107-3513a2e4-3c83-43ed-bec7-9324afbc2cd7.png)
+Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features.
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163285107-3513a2e4-3c83-43ed-bec7-9324afbc2cd7.png" width="570" height="320"/>   </p>()
 
 
 
