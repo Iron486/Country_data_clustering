@@ -45,6 +45,26 @@ Then, I plotted a violin plot to represent the frequency of the values for each 
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="850" height="400"/>   </p>()
 
+According to the plot of inertia, the optimal number of cluster is 4, since the curve has an "elbow" at 4 cluster. Even the silhouette score indicates a high value at 4 clusters.
+In this case, I decided instead to choose 3 clusters, since considering 3 clusters I found out it was better to isolate the countries that need more help.
+
+![features_and_labels_plot_interactive](https://user-images.githubusercontent.com/62444785/163287434-98233f75-c983-49bb-9910-43982883b79f.png)
+
+
+
+
+## Click here to check the interactive plot --> [Features vs Labels Kmeans: Interactive Plot](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/features_and_labels_plot_interactive.html)
+
+![Needed Help Per Country (World)](https://user-images.githubusercontent.com/62444785/163287484-beadbe3d-753f-429e-933d-d3ae8e988936.png)
+
+
+## Click here to check the interactive plot --> [Kmeans: Needed Help Per Country](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/NeededHelpPerCountry%28World%29kmeans.html)
+
+
+
+## Click here to download the plot --> [Kmeans: scatterplots](https://github.com/Iron486/Country_data_clustering/blob/main/Kmeans%20clustering%20scatterplots.png)
+
+
 
 
 
