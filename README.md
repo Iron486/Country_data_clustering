@@ -31,29 +31,35 @@ In the notebook called [Country_data_clustering_kmeans.ipynb](https://github.com
 
 Firstly, I imported the libraries and read the dataset.
 Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features.
+
+
+
+
+
 I plotted the countries in the World and in Europe with their respective value for each feature. The interactive plots can be found at the following links:
 
 
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_child_mort.html .
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_exports.html .
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_gdpp.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_health.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_imports.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_income.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_inflation.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_life_expec.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_total_fer.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_child_mort.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_exports.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_gdpp.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_health.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_imports.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_income.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_inflation.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_life_expec.html
-###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_total_fer.html
+###### [Interactive-plots_Europe_child_mort](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_child_mort.html) 
+###### [Interactive-plots_Europe_exports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_exports.html)
+###### [Interactive-plots_Europe_gdpp](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_gdpp.html)
+###### [Interactive-plots_Europe_health](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_health.html)
+###### [Interactive-plots_Europe_imports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_imports.html)
+###### [Interactive-plots_Europe_income](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_income.html)
+###### [Interactive-plots_Europe_inflation](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_inflation.html)
+###### [Interactive-plots_Europe_life_expec](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_life_expec.html)
+###### [Interactive-plots_Europe_total_fer](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_total_fer.html)
+###### [Interactive-plots_World_child_mort](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_child_mort.html)
+###### [Interactive-plots_World_exports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_exports.html)
+###### [Interactive-plots_World_gdpp](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_gdpp.html)
+###### [Interactive-plots_World_health](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_health.html)
+###### [Interactive-plots_World_imports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_imports.html)
+###### [Interactive-plots_World_income](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_income.html)
+###### [Interactive-plots_World_inflation](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_inflation.html)
+###### [Interactive-plots_World_life_expec](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_life_expec.html)
+###### [Interactive-plots_World_total_fer](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_total_fer.html)
 
- 
+Then, I plotted a violin plot to represent the frequency of the values for each feature.
+
 
 
 
