@@ -32,7 +32,7 @@ In the notebook called [Country_data_clustering_kmeans.ipynb](https://github.com
 Firstly, I imported the libraries and read the dataset.
 Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features.
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163285107-3513a2e4-3c83-43ed-bec7-9324afbc2cd7.png" width="570" height="320"/>   </p>()
+<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163285107-3513a2e4-3c83-43ed-bec7-9324afbc2cd7.png" width="870" height="820"/>   </p>()
 
 
 
