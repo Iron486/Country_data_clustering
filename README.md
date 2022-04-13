@@ -32,7 +32,7 @@ In the notebook called [Country_data_clustering_kmeans.ipynb](https://github.com
 Firstly, I imported the libraries and read the dataset.
 Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features.
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163285107-3513a2e4-3c83-43ed-bec7-9324afbc2cd7.png" width="870" height="720"/>   </p>()
+<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163285107-3513a2e4-3c83-43ed-bec7-9324afbc2cd7.png" width="870" height="690"/>   </p>()
 
 
 
@@ -41,21 +41,9 @@ I plotted the countries in the World and in Europe with their respective value f
 
  [Interactive-plots_Europe_child_mort](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_child_mort.html), [Interactive-plots_Europe_exports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_exports.html), [Interactive-plots_Europe_gdpp](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_gdpp.html), [Interactive-plots_Europe_health](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_health.html), [Interactive-plots_Europe_imports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_imports.html), [Interactive-plots_Europe_income](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_income.html), [Interactive-plots_Europe_inflation](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_inflation.html), [Interactive-plots_Europe_life_expec](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_life_expec.html), [Interactive-plots_Europe_total_fer](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_total_fer.html), [Interactive-plots_World_child_mort](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_child_mort.html), [Interactive-plots_World_exports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_exports.html), [Interactive-plots_World_gdpp](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_gdpp.html), [Interactive-plots_World_health](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_health.html), [Interactive-plots_World_imports](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_imports.html), [Interactive-plots_World_income](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_income.html), [Interactive-plots_World_inflation](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_inflation.html), [Interactive-plots_World_life_expec](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_life_expec.html), [Interactive-plots_World_total_fer](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_World_total_fer.html)
 
-Then, I plotted a violin plot to represent the frequency of the values for each feature.
+Then, I plotted a violin plot to represent the frequency of the values for each feature. I scaled the data and I applied the K-means algorithm, plotting the inertia and the silhouette score per cluster:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="center"> <img src=https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.pngwidth="870" height="690"/>   </p>()
 
 
 
