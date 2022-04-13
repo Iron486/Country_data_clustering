@@ -34,10 +34,9 @@ Then, I explored the datasets looking at the main statistical parameters and cal
 I plotted the countries in the World and in Europe with their respective value for each feature. The interactive plots can be found at the following links:
 
 
-<font size=2> https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_child_mort.html </font> 
+###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_child_mort.html 
 
-
-https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_exports.html
+###### https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_exports.html
 
 https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/interactive_plots/Interactive-plots_Europe_gdpp.html
 
