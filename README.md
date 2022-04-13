@@ -43,7 +43,7 @@ I plotted the countries in the World and in Europe with their respective value f
 
 Then, I plotted a violin plot to represent the frequency of the values for each feature. I scaled the data and I applied the K-means algorithm, plotting the inertia and the silhouette score per cluster:
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="870" height="690"/>   </p>()
+<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="770" height="290"/>   </p>()
 
 
 
