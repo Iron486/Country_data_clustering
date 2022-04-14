@@ -86,6 +86,11 @@ DBDSCAN and Birch were also applied (check the following notebook [Country_data_
 
 ![NeededHelpPerCountry(World)_birch](https://user-images.githubusercontent.com/62444785/163291120-5de5b926-5fe9-4413-a9a1-aa41d1faf650.png)
 
+<ins>Note</ins>: The interactive plots and the other graphs used also for Kmeans, can be found in the Notebook.
+
+It can be observed that DBSCAN found a lot of outliers, even though different hyperparameters were tested. 
+
+Using Birch, the result is more similar to Kmeans with the exception of some countries that are not considered in the same class as Kmeans.
 
 
 
