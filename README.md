@@ -43,10 +43,15 @@ I plotted the countries in the World and in Europe with their respective value f
 
 Then, I plotted a violin plot to represent the frequency of the values for each feature. I scaled the data and I applied the K-means algorithm, plotting the inertia and the silhouette score per cluster:
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="850" height="400"/>   </p>()
+<p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="850" height="400"/>   </p>
 
 According to the plot of inertia, the optimal number of cluster is 4, since the curve has an "elbow" at 4 cluster. Even the silhouette score indicates a high value at 4 clusters.
 In this case, I decided instead to choose 3 clusters, since considering 3 clusters I found out it was better to isolate the countries that need more help.
+
+Then I plotted an interactive plot that is able to visualize better the clusters (represented with 3 different colors). 
+Below, it's possible to check the plot and also to check the interactive plot (click on the link below the figure). 
+
+Every feature can be restrained to some particular range values, clicking on the bar associated with each feature and unclicking when the user is satisfied with the range of values. 
 
 ## **<p align="center"> Features vs Labels Kmeans: Interactive Plot </p>**
 ![features_and_labels_plot_interactive](https://user-images.githubusercontent.com/62444785/163289304-540f2357-282b-4812-aa8f-bc71c180e587.png)
@@ -54,12 +59,15 @@ In this case, I decided instead to choose 3 clusters, since considering 3 cluste
 
 ### Click here to check the interactive plot --> [Features vs Labels Kmeans: Interactive Plot](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/features_and_labels_plot_interactive.html)
 
+Below, instead, I plotted the different clusters on the globe. Each cluster, can be associated with countries with more similar developpment conditions.
+
 ## **<p align="center"> Kmeans: Needed Help Per Country </p>**
 
 ![NeededHelpPerCountry(World)kmeans](https://user-images.githubusercontent.com/62444785/163288196-ba5c6da8-b416-4fd5-9343-278dda60ddd3.png)
 
 ### Click here to check the interactive plot --> [Kmeans: Needed Help Per Country](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/NeededHelpPerCountry%28World%29kmeans.html)
 
+At the end, a correlation plot was plotted enhancing the 3 different clusters and how they were separated in the feature hyperspace.
 ## **<p align="center"> Kmeans clustering scatterplots </p>**
 
 ![Kmeans clustering scatterplots](https://user-images.githubusercontent.com/62444785/163288199-3b8af812-26b8-4930-850a-35d622eef6d1.png)
