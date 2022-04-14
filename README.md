@@ -49,8 +49,8 @@ According to the plot of inertia, the optimal number of cluster is 4, since the 
 In this case, I decided instead to choose 3 clusters, since considering 3 clusters I found out it was better to isolate the countries that need more help.
 
 ## **<p align="center"> Features vs Labels Kmeans: Interactive Plot </p>**
+![features_and_labels_plot_interactive](https://user-images.githubusercontent.com/62444785/163289304-540f2357-282b-4812-aa8f-bc71c180e587.png)
 
-![NeededHelpPerCountry(World)kmeans](https://user-images.githubusercontent.com/62444785/163288181-472deb56-fbd8-4a13-ab22-e2df3df9ce23.png)
 
 ### Click here to check the interactive plot --> [Features vs Labels Kmeans: Interactive Plot](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/features_and_labels_plot_interactive.html)
 
