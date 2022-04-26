@@ -46,9 +46,9 @@ Then, I plotted a violin plot to represent the frequency of the values for each 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="850" height="400"/>   </p>
 
 According to the plot of inertia, the optimal number of cluster is 4, since the curve has an "elbow" at 4 cluster. Even the silhouette score indicates a high value at 4 clusters.
-In this case, I decided instead to choose 3 clusters, since considering 3 clusters I found out it was better to isolate the countries that need more help.
+In this case, I decided instead to choose 3 clusters since, considering 3 clusters, the algorithm better isolated the countries that need more help.
 
-Then I plotted an interactive plot that is able to visualize better the clusters (represented with 3 different colors). 
+Then, I plotted an interactive plot that is able to visualize better the clusters (represented with 3 different colors). 
 Below, it's possible to check the plot and also to check the interactive plot (click on the link below the figure). 
 
 Every feature can be restrained to some particular range values, clicking on the bar associated with each feature and unclicking when the user is satisfied with the range of values. 
@@ -59,7 +59,7 @@ Every feature can be restrained to some particular range values, clicking on the
 
 ### Click here to check the interactive plot --> [Features vs Labels Kmeans: Interactive Plot](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/features_and_labels_plot_interactive.html)
 
-Below, instead, I plotted the different clusters on the globe. Each cluster, can be associated with countries with more similar developpment conditions.
+Below, instead, I plotted the different clusters on the globe. Each cluster can be associated with countries with more similar developpment conditions.
 
 ## **<p align="center"> Kmeans: Needed Help Per Country </p>**
 
@@ -86,7 +86,7 @@ DBDSCAN and Birch were also applied (check the following notebook [Country_data_
 
 ![NeededHelpPerCountry(World)_birch](https://user-images.githubusercontent.com/62444785/163291120-5de5b926-5fe9-4413-a9a1-aa41d1faf650.png)
 
-<ins>Note</ins>: The interactive plots and the other graphs used also for Kmeans, can be found in the Notebook.
+<ins>Note</ins>: The interactive plots and the other graphs used for Kmeans and the other used algorithms can be found in the Notebook.
 
 ``  
 ``  
