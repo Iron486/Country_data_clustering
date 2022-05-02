@@ -46,7 +46,7 @@ Then, I plotted a violin plot to represent the frequency of the values for each 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="850" height="400"/>   </p>
 
 According to the plot of inertia, the optimal number of cluster is 4, since the curve has an "elbow" at 4 cluster. Even the silhouette score indicates a high value at 4 clusters.
-In this case, I decided instead to choose 3 clusters since, considering 3 clusters, the algorithm better isolated the countries that need more help.
+In this case instead, I decided  to choose 3 clusters since, considering 3 clusters, the algorithm better isolates the countries that need more help.
 
 Then, I plotted an interactive plot that is able to visualize better the clusters (represented with 3 different colors). 
 Below, it's possible to check the plot and also to check the interactive plot (click on the link below the figure). 
