@@ -1,6 +1,7 @@
 # Country_data_clustering
 
-The objective of this project was the categorisation of the countries using socio-economic and health factors that indicate the overall development of the country.
+**The objective of this project was the categorisation of the countries using socio-economic and health factors that indicate the overall development of the country.**
+
 The dataset was taken from here https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data.
 
 Data from 167 countries were given in `csv` format  [Country_data_clustering
