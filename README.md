@@ -8,27 +8,27 @@ Data from 167 countries were given in `csv` format  [Country_data_clustering
 ](https://github.com/Iron486/Country_data_clustering/blob/main/Country-data.csv) with the following features:
 
 
-**country**	Name of the country
+**country**	Name of the country;
 
-**child_mot**	Death of children under 5 years of age per 1000 live births
+**child_mot**	Death of children under 5 years of age per 1000 live births;
 
-**exports**	Exports of goods and services per capita. Given as %age of the GDP per capita
+**exports**	Exports of goods and services per capita. Given as %age of the GDP per capita;
 
-**health**	Total health spending per capita. Given as %age of GDP per capita
+**health**	Total health spending per capita. Given as %age of GDP per capita;
 
-**imports**	Imports of goods and services per capita. Given as %age of the GDP per capita
+**imports**	Imports of goods and services per capita. Given as %age of the GDP per capita;
 
-**Income**	Net income per person
+**Income**	Net income per person;
 
-**Inflation**:	The measurement of the annual growth rate of the Total GDP
+**Inflation**:	The measurement of the annual growth rate of the Total GDP;
 
-**life_expec**:	The average number of years a new born child would live if the current mortality patterns are to remain the same
+**life_expec**:	The average number of years a new born child would live if the current mortality pattern remains the same;
 
-**total_fer**:	The number of children that would be born to each woman if the current age-fertility rates remain the same.
+**total_fer**:	The number of children that would be born to each woman if the current age-fertility rate remains the same;
 
 **gdpp**:	The GDP per capita. Calculated as the Total GDP divided by the total population.
 
-In the notebook called [Country_data_clustering_kmeans.ipynb](https://github.com/Iron486/Country_data_clustering/blob/main/Country_data_clustering_kmeans.ipynb) I applied k-means algorithm, while in this one [Country_data_clustering_DBSCAN_Birch.ipynb](https://github.com/Iron486/Country_data_clustering/blob/main/Country_data_clustering_DBSCAN_Birch.ipynb), I applied DBSCAN and Birch to the dataset.
+In the notebook called [Country_data_clustering_kmeans.ipynb](https://github.com/Iron486/Country_data_clustering/blob/main/Country_data_clustering_kmeans.ipynb), I applied k-means algorithm, while in this one [Country_data_clustering_DBSCAN_Birch.ipynb](https://github.com/Iron486/Country_data_clustering/blob/main/Country_data_clustering_DBSCAN_Birch.ipynb) I applied DBSCAN and Birch to the dataset.
 
 Firstly, I imported the libraries and read the dataset.
 Then, I explored the datasets looking at the main statistical parameters and calculating che correlation matrix for all the numerical features.
@@ -46,13 +46,13 @@ Then, I plotted a violin plot to represent the frequency of the values for each 
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/163286827-c440c389-a1d5-4045-84db-d9bdbbbd4db0.png" width="850" height="400"/>   </p>
 
-According to the plot of inertia, the optimal number of cluster is 4, since the curve has an "elbow" at 4 cluster. Even the silhouette score indicates a high value at 4 clusters.
-In this case instead, I decided  to choose 3 clusters since, considering 3 clusters, the algorithm better isolates the countries that need more help.
+According to the plot of inertia, the optimal number of cluster is 4 since the curve has an "elbow" at 4 cluster. Even the silhouette score indicates a high value at 4 clusters.
+In this case, instead, I decided  to choose 3 clusters since the algorithm isolates better the countries that need more help.
 
 Then, I plotted an interactive plot that is able to visualize better the clusters (represented with 3 different colors). 
 Below, it's possible to check the plot and also to check the interactive plot (click on the link below the figure). 
 
-Every feature can be restrained to some particular range values, clicking on the bar associated with each feature and unclicking when the user is satisfied with the range of values. 
+Each feature can be restrained to some particular range values, clicking on the bar associated with each feature and unclicking when the user is satisfied with the range of values. 
 
 ## **<p align="center"> Features vs Labels Kmeans: Interactive Plot </p>**
 
@@ -60,7 +60,7 @@ Every feature can be restrained to some particular range values, clicking on the
 
 ### Click here to check the interactive plot --> [Features vs Labels Kmeans: Interactive Plot](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/features_and_labels_plot_interactive.html)
 
-Below, instead, I plotted the different clusters on the globe. Each cluster can be associated with countries with more similar developpment conditions.
+Below, instead, I plotted the different clusters on the globe. Each cluster can be associated with countries that have a similar development conditions.
 
 ## **<p align="center"> Kmeans: Needed Help Per Country </p>**
 
@@ -68,7 +68,7 @@ Below, instead, I plotted the different clusters on the globe. Each cluster can 
 
 ### Click here to check the interactive plot --> [Kmeans: Needed Help Per Country](https://nbviewer.org/github/Iron486/Country_data_clustering/blob/main/NeededHelpPerCountry%28World%29kmeans.html)
 
-At the end, a correlation plot was plotted enhancing the 3 different clusters and how they were separated in the feature hyperspace.
+At the end, a correlation plot was plotted enhancing the 3 different clusters and showing how they were separated in the feature hyperspace.
 ## **<p align="center"> Kmeans clustering scatterplots </p>**
 
 
@@ -87,14 +87,14 @@ DBDSCAN and Birch were also applied (check the following notebook [Country_data_
 
 ![NeededHelpPerCountry(World)_birch](https://user-images.githubusercontent.com/62444785/163291120-5de5b926-5fe9-4413-a9a1-aa41d1faf650.png)
 
-<ins>Note</ins>: The interactive plots and the other graphs used for Kmeans and the other used algorithms can be found in the Notebook.
+<ins>Note</ins>: The interactive plots and the other graphs used for Kmeans with the other algorithms, can be found in the Notebook.
 
 ``  
 ``  
 
 It can be observed that **DBSCAN found a consistent number of outliers**, even though different hyperparameters were tested. 
 
-Using **Birch** the result is more **similar to Kmeans** with the exception that some countries are not considered in the same class as in Kmeans.
+Using **Birch** the result is **similar to Kmeans**, with the exception that some countries are not considered in the same class as in Kmeans.
 
 
 
